@@ -12,6 +12,7 @@ struct ContentView: View {
         VStack {
             Image(systemName: "gear")
                 .font(.largeTitle)
+                .foregroundStyle(.red)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
